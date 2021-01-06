@@ -1,18 +1,26 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Header from "./Header.js";
+import Home from "./Home.js";
 
 function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/" component={Header} />
-        <Route path="/contact">
-          <h2>contact page</h2>
+        <Route exact path="/">
+          <Header />
+          <Home />
+          <h2>home page</h2>
+        </Route>
+        <Route path="/orders">
+          <Header />
+          <h2>order page</h2>
+        </Route>
+        <Route path="/cart">
+          <Header />
+          <h2>cart page</h2>
         </Route>
       </Switch>
-
-      <h3>hello world</h3>
     </>
   );
 }

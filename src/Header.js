@@ -27,7 +27,7 @@ function Header() {
               <span className="header_option_l2">Sign In</span>
             </div>
           </Link>
-          <Link to="/" className="header_links">
+          <Link to="/orders" className="header_links">
             <div className="header_option">
               <span className="header_option_l1">Return</span>
               <span className="header_option_l2">Orders</span>
@@ -35,11 +35,11 @@ function Header() {
           </Link>
           <Link to="/" className="header_links">
             <div className="header_option">
-              <span className="header_option_l1">Cart</span>
-              <span className="header_option_l2">Sign In</span>
+              <span className="header_option_l1">Your</span>
+              <span className="header_option_l2">Prime</span>
             </div>
           </Link>
-          <Link to="/checkout" className="header_links">
+          <Link to="/cart" className="header_links">
             <div className="header_basket">
               <ShoppingBasketIcon />
               <span className="header_option_l2 basket_count">0</span>

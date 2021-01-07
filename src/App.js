@@ -10,7 +10,6 @@ function App() {
         <Route exact path="/">
           <Header />
           <Home />
-          <h2>home page</h2>
         </Route>
         <Route path="/orders">
           <Header />

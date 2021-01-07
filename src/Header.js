@@ -29,8 +29,8 @@ function Header() {
           </Link>
           <Link to="/orders" className="header_links">
             <div className="header_option">
-              <span className="header_option_l1">Return</span>
-              <span className="header_option_l2">Orders</span>
+              <span className="header_option_l1">Returns</span>
+              <span className="header_option_l2"> & Orders</span>
             </div>
           </Link>
           <Link to="/" className="header_links">

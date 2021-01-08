@@ -21,7 +21,7 @@ const Items_row2 = [
     price: 11999,
     title: "Honor 7x",
     rating: 4.4,
-    image: "./img/norse.jpg",
+    image: "./img/honor.jpg",
   },
   {
     id: 2,
@@ -31,12 +31,21 @@ const Items_row2 = [
     image: "./img/boat.jpg",
   },
   {
-    id: 2,
-    price: 111.2,
+    id: 3,
+    price: 12999,
     title: "Samsung M30",
     rating: 4.5,
     image: "./img/sam.jpg",
   },
 ];
 
-export { Items_row1, Items_row2 };
+const Items_row3 = [
+  {
+    id: 1,
+    price: 22999.99,
+    title: "Mi Tv 4A",
+    rating: 4.5,
+    image: "./img/mi.jpg",
+  },
+];
+export { Items_row1, Items_row2, Items_row3 };

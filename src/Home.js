@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product.js";
-import { Items_row1, Items_row2 } from "./Items.js";
+import { Items_row1, Items_row2, Items_row3 } from "./Items.js";
 
 const Home = () => {
   return (
@@ -28,6 +28,21 @@ const Home = () => {
         {/* second row */}
         <div className="home_row">
           {Items_row2.map((val) => {
+            console.log("fat arrow used");
+            return (
+              <Product
+                title={val.title}
+                price={val.price}
+                rating={val.rating}
+                image={val.image}
+              />
+            );
+          })}
+        </div>
+
+        {/* Third row */}
+        <div className="home_row">
+          {Items_row3.map((val) => {
             console.log("fat arrow used");
             return (
               <Product

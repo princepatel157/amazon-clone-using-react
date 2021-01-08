@@ -10,7 +10,7 @@ function Header() {
       <nav className="header">
         {/* logo*/}
         <Link to="/">
-          <img className="header_logo" src="amaz.png" alt="no img" />
+          <img className="header_logo" src="./img/amaz.png" alt="no img" />
         </Link>
 
         {/* search bar */}

@@ -5,9 +5,11 @@
   margin-bottom: -120px;
 }
 .home {
+  justify-content: center;
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(234, 237, 237);
 }
 .home_row {
   display: flex;

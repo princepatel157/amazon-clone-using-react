@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product.js";
+import { Items_row1, Items_row2 } from "./Items.js";
 
 const Home = () => {
   return (
@@ -9,44 +10,34 @@ const Home = () => {
         <img s className="home_img" src="amazonbanner.jpg" alt="" />
 
         {/* product component */}
+        {/* first row */}
         <div className="home_row">
-          <Product
-            id="123"
-            price={442.2}
-            title="Norse Mythology: Neil Gaimen"
-            rating={4.7}
-            image="norse.jpg"
-          />
-          <Product
-            id="123"
-            title="Norse Mythology: Neil Gaimen"
-            price={442.2}
-            rating={4.7}
-            image="norse.jpg"
-          />
+          {Items_row1.map((val) => {
+            console.log("fat arrow used");
+            return (
+              <Product
+                title={val.title}
+                price={val.price}
+                rating={val.rating}
+                image={val.image}
+              />
+            );
+          })}
         </div>
+
+        {/* second row */}
         <div className="home_row">
-          <Product
-            id="123"
-            title="Norse Mythology: Neil Gaimen"
-            price={442.2}
-            rating={4.7}
-            image="norse.jpg"
-          />
-          <Product
-            id="123"
-            title="Norse Mythology: Neil Gaimen"
-            price={442.2}
-            rating={4.7}
-            image="norse.jpg"
-          />
-          <Product
-            id="123"
-            title="Norse Mythology: Neil Gaimen"
-            price={442.2}
-            rating={4.7}
-            image="norse.jpg"
-          />
+          {Items_row2.map((val) => {
+            console.log("fat arrow used");
+            return (
+              <Product
+                title={val.title}
+                price={val.price}
+                rating={val.rating}
+                image={val.image}
+              />
+            );
+          })}
         </div>
       </div>
     </>

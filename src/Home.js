@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <img s className="home_img" src="amazonbanner.jpg" alt="" />
+        <img s className="home_img" src="./img/amazonbanner.jpg" alt="" />
 
         {/* product component */}
         {/* first row */}

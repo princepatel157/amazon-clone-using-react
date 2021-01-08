@@ -9,7 +9,7 @@ const Items_row1 = [
   {
     id: 2,
     price: 111.2,
-    title: "Dear Stranger",
+    title: "Dear Stranger, I know how you feel: Ashish Bagrecha",
     rating: 4.5,
     image: "dear.jpg",
   },

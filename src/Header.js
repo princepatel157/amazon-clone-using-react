@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
       <nav className="header">
-        {/* images*/}
+        {/* logo*/}
         <Link to="/">
           <img className="header_logo" src="amaz.png" alt="no img" />
         </Link>

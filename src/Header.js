@@ -39,7 +39,7 @@ function Header() {
               <span className="header_option_l2">Prime</span>
             </div>
           </Link>
-          <Link to="/cart" className="header_links">
+          <Link to="/checkout" className="header_links">
             <div className="header_basket">
               <ShoppingBasketIcon />
               <span className="header_option_l2 basket_count">0</span>

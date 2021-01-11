@@ -18,17 +18,17 @@
   margin-bottom: 15px;
   margin-top: 1px;
 }
-.product_price {
-  margin-top: 5px;
-}
-.product_info {
-  height: 120px;
-  margin-bottom: 5px;
-}
 .product > button {
   background-color: #f0c14b;
   border: 1px solid;
   margin-bottom: 10px;
+}
+.product_price {
+  margin-top: 5px;
+}
+.product_info {
+  height: 70px;
+  margin-bottom: 5px;
 }
 .product_rating {
   margin-bottom: 2px;
